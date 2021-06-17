@@ -1,0 +1,22 @@
+{
+  "name": "token-auth",
+  "version": "1.0.0",
+  "description": "basic token auth module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "victor",
+  "license": "ISC",
+  "peerDependencies": {
+    "mongoose": "5.10.6",
+    "express": "4.17.1"
+  },
+  "dependencies": {
+    "bcrypt": "5.0.0",
+    "cors": "2.8.5",
+    "crypto-random-string": "3.3.0",
+    "jsonwebtoken": "8.5.1",
+    "uuid": "8.3.1"
+  }
+}
